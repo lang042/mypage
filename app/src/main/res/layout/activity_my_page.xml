@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/setReminderButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="알림 설정" />
+
+    <Button
+        android:id="@+id/viewMonthlyGraphButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="월별 그래프" />
+
+    <Button
+        android:id="@+id/aiSummaryButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AI 한달 요약" />
+
+    <Button
+        android:id="@+id/contactAdminButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="문의하기" />
+
+    <Button
+        android:id="@+id/disconnectNaverButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="네이버 연동 해제" />
+
+</LinearLayout>
